@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React from here
+          Learn React from Fullstack
         </a>
       </header>
     </div>
