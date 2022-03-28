@@ -22,6 +22,7 @@ pipeline {
                 sh " npm run build"
                 sh "sudo rm -rf /var/www/alfonso-react-app"
                 sh "sudo cp -r ${WORKSPACE}/build/ /var/www/alfonso-react-app/"
+		sh "sudo chown -R www-data:www-data /var/www/alfonso-react-app/"
             }
         }
     }
