@@ -19,7 +19,7 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
-    "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+    "prettier": "npx prettier --write \"**/*.+(js|jsx|json|css|md)\""
   },
   "eslintConfig": {
     "extends": [
